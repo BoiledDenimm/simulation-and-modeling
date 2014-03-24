@@ -1,0 +1,7 @@
+The classes in this root folder form an event-driven simulation engine.
+
+Examples written for the scalation simulation engine can be found in /scalation_simulations
+They work on this engine, but the statistic and random libraries that depend on scalation would
+need to be removed, as well as the statements that rely on them.
+
+The README inside the scalation_simulations provides info on how to run these example simulations

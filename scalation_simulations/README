@@ -1,0 +1,28 @@
+To run:
+	place the files inside of $SCALATION/src/main/scala/test
+	test is a folder you have created
+
+From $SCALATION, run:
+	sbt compile
+	./scar GroceryCheckout
+	./scar AbleBakerCarHop
+	./scar DumpTruck
+
+In each file, change the variable nArrivals to alter the simulation length.
+AbleBakerCarHop and DumpTruck both are based on distributions from Randi.
+We weren't sure how Randi is seeded, aka if you can test against your own,
+so we added in extra print statements to allow for the manual stepping through
+each line to see that each event/activity was occuring correctly.
+
+These simulations are based off of examples in the textbook Discrete-Event System Simulation 5/e
+by Banks, Carson, Nelson and Nicol, 2010:
+
+    Able-Baker Call Center: Example 3.1: Page 91
+
+    Grocery Store Checkout Counter: Example 3.3: Page 98
+
+    Dump Trucks for Hauling Coal: Example 3.5: Page 104
+
+
+Scalation is available at:
+http://cobweb.cs.uga.edu/~jam/scalation_1.1/README.html
