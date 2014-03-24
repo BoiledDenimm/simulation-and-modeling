@@ -1,6 +1,4 @@
-/*
-* @author Will Henry
-*/
+
 import scalation.event.{Entity, Event, Model}
 import scalation.random.{Exponential, Variate}
 import scalation.stat.Statistic
